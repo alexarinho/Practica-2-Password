@@ -33,7 +33,7 @@ public class Password {
 				break;
 			}
 		}
-
+		
 	}
 	
 	public boolean esFuerte() {

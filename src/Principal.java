@@ -4,11 +4,19 @@ public class Principal {
 
 	public static void main(String[] args) {
 		Scanner leer = new Scanner(System.in);
-		System.out.println("Dime la longitud de tu contraseña");
-		int tamaño=0;
-		tamaño = leer.nextInt();
-		Password pas = new Password(tamaño);
-		System.out.println(pas);
+		
+		int tamañoVector =0;
+		System.out.println("Dime el tamaño de todo");
+		tamañoVector = leer.nextInt();
+		
+		Password [] vPasswords = new Password[tamañoVector];
+		boolean [] vFuerteDebiil = new boolean[tamañoVector];
+		
+		for (int i = 0; i < tamañoVector; i++) {
+			Password pas = new Password(tamañoVector);
+			
+		}
+		
 	}
 
 }
