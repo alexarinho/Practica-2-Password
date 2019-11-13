@@ -32,7 +32,6 @@ public class Password {
 				contraseña += (char) (r.nextInt(25) + 97);
 				break;
 			}
-
 		}
 
 	}
